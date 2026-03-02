@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const numero = '5492622535078'; // reemplaza con tu número real sin espacios ni guiones
 
             const url = `https://wa.me/${numero}?text=${texto}`;
-            window.open(url, '_blank');
+            window.location.href = url;
 
             contactForm.reset();
 
