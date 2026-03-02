@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const mensaje = document.getElementById('mensaje').value;
 
             const texto = `Hola Cristian! 👋%0AQuiero reservar una fecha.%0A%0ANombre: ${nombre}%0ATipo de evento: ${evento}%0AMensaje: ${mensaje}`;
-            const numero = '+5492622535078'; // reemplaza con tu número real sin espacios ni guiones
+            const numero = '5492622535078'; // reemplaza con tu número real sin espacios ni guiones
 
             const url = `https://wa.me/${numero}?text=${texto}`;
             window.open(url, '_blank');
